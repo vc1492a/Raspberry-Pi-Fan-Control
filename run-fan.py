@@ -46,6 +46,6 @@ try:
     setup() 
     while True:
         getTEMP()
-    sleep(5) # Read the temperature every 5 sec, increase or decrease this limit if you want
+        sleep(5) # Read the temperature every 5 sec, increase or decrease this limit if you want
 except KeyboardInterrupt: # trap a CTRL+C keyboard interrupt 
     GPIO.cleanup() # resets all GPIO ports used by this program
